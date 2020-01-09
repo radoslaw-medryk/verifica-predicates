@@ -1,6 +1,6 @@
 {
     "name": "verifica-predicates",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
@@ -15,6 +15,6 @@
         "typescript": "3.6.3"
     },
     "dependencies": {
-        "verifica-core": "0.1.0"
+        "verifica-core": "0.1.1"
     }
 }
