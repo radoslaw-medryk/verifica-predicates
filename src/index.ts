@@ -5,7 +5,7 @@ export { isArrayOf } from "./isArrayOf";
 export { isBoolean } from "./isBoolean";
 export { isFiniteNumber } from "./isFiniteNumber";
 export { isInteger } from "./isInteger";
-export { IsIntegerInRangeOptions, isIntegerInRange } from "./isIntegerInRange";
+export { IsNumberInRangeOptions, isNumberInRange } from "./isNumberInRange";
 export { isNumber } from "./isNumber";
 export { isObject } from "./isObject";
 export { isOptionalString } from "./isOptionalString";

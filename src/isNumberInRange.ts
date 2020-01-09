@@ -1,18 +1,18 @@
 import { Predicate, makeError, ensure } from "verifica-core";
-import { isInteger } from "./isInteger";
+import { isFiniteNumber } from "./isFiniteNumber";
 
-export type IsIntegerInRangeOptions = {
+export type IsNumberInRangeOptions = {
     min?: number;
     max?: number;
 };
 
-export function isIntegerInRange({ min, max }: IsIntegerInRangeOptions): Predicate<number> {
-    return function _isIntegerInRange(verificable) {
-        const value = ensure(verificable, isInteger);
+export function isNumberInRange({ min, max }: IsNumberInRangeOptions): Predicate<number> {
+    return function _isNumberInRange(verificable) {
+        const value = ensure(verificable, isFiniteNumber);
 
         if ((min !== undefined && value < min) || (max !== undefined && value > max)) {
             return makeError(verificable, {
-                type: "isIntegerInRange",
+                type: "isNumberInRange",
                 min: min,
                 max: max,
             });
