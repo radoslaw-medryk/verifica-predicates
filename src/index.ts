@@ -1,6 +1,7 @@
 export { all } from "./all";
-export { optional as asOptional } from "./optional";
+export { optional } from "./optional";
 export { isArray } from "./isArray";
+export { isArrayLength } from "./isArrayLength";
 export { isArrayOf } from "./isArrayOf";
 export { isBoolean } from "./isBoolean";
 export { isFiniteNumber } from "./isFiniteNumber";
@@ -8,7 +9,6 @@ export { isInteger } from "./isInteger";
 export { IsNumberInRangeOptions, isNumberInRange } from "./isNumberInRange";
 export { isNumber } from "./isNumber";
 export { isObject } from "./isObject";
-export { isOptionalString } from "./isOptionalString";
 export { isRegexMatch } from "./isRegexMatch";
 export { isString } from "./isString";
 export { IsStringLengthOptions, isStringLength } from "./isStringLength";
