@@ -9,6 +9,7 @@ export { isInteger } from "./isInteger";
 export { IsNumberInRangeOptions, isNumberInRange } from "./isNumberInRange";
 export { isNumber } from "./isNumber";
 export { isObject } from "./isObject";
+export { isOneOf } from "./isOneOf";
 export { isRegexMatch } from "./isRegexMatch";
 export { isString } from "./isString";
 export { IsStringLengthOptions, isStringLength } from "./isStringLength";
