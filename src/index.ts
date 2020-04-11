@@ -1,4 +1,5 @@
 export { all } from "./all";
+export { any } from "./any";
 export { optional } from "./optional";
 export { isArray } from "./isArray";
 export { isArrayLength } from "./isArrayLength";
