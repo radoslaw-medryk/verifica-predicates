@@ -1,9 +1,10 @@
 {
     "name": "verifica-predicates",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
+        "prepack": "npm run build",
         "build": "mkdir -p dist && rm -r dist && tsc",
         "prettier": "prettier ./src/**/*.{js,ts,tsx,json} --write"
     },
@@ -15,6 +16,6 @@
         "typescript": "3.6.3"
     },
     "dependencies": {
-        "verifica-core": "0.1.1"
+        "verifica-core": "0.1.2"
     }
 }
