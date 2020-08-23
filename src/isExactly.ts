@@ -6,7 +6,7 @@ export function isExactly<T>(allowedValue: T): Predicate<T> {
 
         if (value !== allowedValue) {
             return makeError(verificable, {
-                type: "isOneOf",
+                type: "isExactly",
                 allowedValue: allowedValue,
             });
         }

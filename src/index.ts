@@ -5,6 +5,7 @@ export { isArray } from "./isArray";
 export { isArrayLength } from "./isArrayLength";
 export { isArrayOf } from "./isArrayOf";
 export { isBoolean } from "./isBoolean";
+export { isDate } from "./isDate";
 export { isExactly } from "./isExactly";
 export { isFiniteNumber } from "./isFiniteNumber";
 export { isInteger } from "./isInteger";
